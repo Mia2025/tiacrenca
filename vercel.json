@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "routes": [
-    { "src": "/questionario", "dest": "/questionario.html" },
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
-}
