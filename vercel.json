@@ -1,13 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
-    { "src": "/questionario", "dest": "/public/questionario.html" },
-    { "src": "/(.*)", "dest": "/public/$1" }
+    { "src": "/questionario", "dest": "/questionario.html" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
